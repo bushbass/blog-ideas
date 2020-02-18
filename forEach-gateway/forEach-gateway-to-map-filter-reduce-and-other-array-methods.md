@@ -1,5 +1,5 @@
 introduce array methods
-
+All arrays in JavaScript have some built in methods that make working with them easier. Many of
 find a list to link to but we are only doing forEach
 
 show basic for loop with just an integer for limit

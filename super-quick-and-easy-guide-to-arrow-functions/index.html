@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Super quick guide to arrow functions</h1>
+    <p>
+      This is NOT a definitive guide to arrow functions. I'm writing a few other
+      tutorials and blogs and want to have something to point people to so they
+      can have a quick explanation and example of arrow functions since they are
+      in so many of the modern frameworks. Just enough to be dangerous! To be
+      clear, there are reasons where you should not use arrow functions, but
+      they are not going to be discussed in this blog post. I just want you to
+      be able to know how they work when you see them "in the wild".
+    </p>
+    <p>
+      Let's get started. I'm going to take you step by step converting a regular
+      function into an arrow function.
+    </p>
+    <p>Here's a regular function using the function keyword</p>
+    <img src="1-sayMyName.png" alt="" />
+
+    <p>Let's change that to an anonymous function expression</p>
+    <img src="2-sayExpressionName.png" alt="" />
+    <p>
+      Should be nothing new here so far. No Arrows or ES6 yet, but here it
+      comes...
+    </p>
+    <p>First remove the function keyword and add the arrow</p>
+
+    <img src="3-sayArrowName.png" alt="" />
+    <p>
+      The only thing going on there is removing the function keyword and adding
+      the arrow. And that's it! You've gone and made an arrow function! Hurray!
+      But wait, there's more!
+    </p>
+    <p>
+      If there is only one argument, you can get rid of the parentheses around
+      it.
+    </p>
+
+    <img src="4-sayParensName.png" alt="" />
+    <p>
+      Getting pretty lean but we can take it even further. If the body of the
+      code is only one line, we can get rid of the curly braces.
+    </p>
+
+    <img src="5-sayNoBracesname.png" alt="" />
+    <p>
+      Frequently, you'll see these used as a callback in another function so
+      there is no const and no function name. This is the case that we see quite
+      a bit and the real reason I wrote this all up in the first place
+    </p>
+    <img src="6-anonymousArrow.png" alt="" />
+    <p>
+      This doesn't do anything on it's own, but as a callback it's useful
+    </p>
+
+    <img src="7-forEach.png" alt="" />
+    <p>
+      I think that covers the basics. Again this is not mean to be the
+      definitive guide, just an intro to figure out what they mean because we
+      see them 'in the wild' in all the modern frameworks.
+    </p>
+    <p>
+      As a comparison, here's a regular old for loop. Sure, we understand this
+      as programmers, but the arrow function just reads like a sentence in
+      normal language. So much easier to understand!
+    </p>
+    <img src="8-oldLoop.png" alt="" />
+  </body>
+</html>
